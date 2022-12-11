@@ -1,5 +1,3 @@
-// src/redux/config/configStore.js
-
 import { configureStore } from "@reduxjs/toolkit";
 import comment from "../modules/addCommentSlice"
 /**

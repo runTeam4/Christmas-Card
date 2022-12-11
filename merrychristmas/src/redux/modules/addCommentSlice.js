@@ -30,7 +30,7 @@ export const __addComment = createAsyncThunk(
   }
 );
 
-export const todosSlice = createSlice({
+export const commentSlice = createSlice({
   name: "todos",
   initialState,
   reducers: {},
@@ -42,4 +42,4 @@ export const todosSlice = createSlice({
 });
 
 export const { } = todosSlice.actions;
-export default todosSlice.reducer;
+export default commentSlice.reducer;
