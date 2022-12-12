@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Main from "../pages/main";
-import Edit from "../pages/edit";
-import Detail from "../pages/detail";
+import Main from "../pages/Main";
+import Edit from "../pages/Edit";
+import Detail from "../pages/Detail";
 
 const Router = () => {
   return (
